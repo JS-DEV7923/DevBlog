@@ -1,0 +1,15 @@
+setup-1: Initialize app and tooling
+
+What I did:
+- Added Vite + React + TypeScript scaffolding (index.html, vite.config.ts, tsconfig.json).
+- Set up TailwindCSS (tailwind.config.js, postcss.config.js, src/index.css).
+- Created minimal React entry (src/main.tsx, src/App.tsx).
+- Added ESLint + Prettier config (.eslintrc.cjs) and .gitignore.
+- Installed deps and ran lint; build system is ready.
+
+How to run:
+- npm install
+- npm run dev
+
+Notes:
+- Using React Router will be added next (router-1).
