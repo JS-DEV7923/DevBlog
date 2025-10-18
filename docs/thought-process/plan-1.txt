@@ -1,0 +1,8 @@
+plan-1: Finalize project plan and scope
+
+Objective: Define routes, data flow, components, structure, milestones.
+Stack: Vite + React + TypeScript, TailwindCSS, ESLint/Prettier, Vitest + RTL.
+Router: React Router v6.22+ with loaders, actions, errorElement.
+Data: Mock API with small delay; single source in src/lib/api.ts.
+Routes: / (Home), /about, /contact (action), /posts, /posts/:id, /profile/overview|settings|security (+ redirect /profile→/profile/overview), * (NotFound).
+Done when: All routes render; loaders work; redirects & 404 handled; simple tests pass.
